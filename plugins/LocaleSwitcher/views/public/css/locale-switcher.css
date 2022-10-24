@@ -1,0 +1,39 @@
+ul.locale-switcher {
+    font-size: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+ul.locale-switcher li {
+    display: inline-block;
+}
+
+ul.locale-switcher a {
+    padding : 0 !important;
+}
+
+ul.locale-switcher .flag-icon {
+    border: 1px solid lightgrey;
+    box-sizing: content-box;
+}
+
+ul.locale-switcher .flag-icon.active {
+    box-shadow: 0px 0px 3px 1px rgba(128, 128, 128, 0.9);
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: 
+    #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #999;
+    border-radius: 10px;
+    margin: -0.5em 0.1em;
+}
